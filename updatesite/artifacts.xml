@@ -3,8 +3,8 @@
 <repository name='org.eclipse.core.pki.update' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
 <!--	<property name='p2.system' value='true'/>-->
-    <property name='p2.timestamp' value='1718017216715'/>
-<!--    <property name='p2.uuid' value='42f4e2c7-5a37-49a5-8cae-803aca3b1c8a'/>-->
+    <property name='p2.timestamp' value='1718043568810'/>
+<!--    <property name='p2.uuid' value='18ae02e0-a97e-4f2e-9c32-421711b23555'/>-->
     <property name='p2.compressed' value='true'/>
   </properties>
   <mappings size='3'>
@@ -13,7 +13,7 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/org.eclipse:org.eclipse.core.pki.update:eclipse-repository:1.0.0-SNAPSHOT_1.0.0-SNAPSHOT.jar'/>
   </mappings>
   <artifacts size='2'>
-	<artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406101059'>
+	<artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406101819'>
     <properties size='9'>
       <property name='artifact.size' value='81277'/>
       <property name='download.size' value='81277'/>
@@ -26,7 +26,7 @@
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
   </artifact>
-  <artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406101059'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406101819'>
     <properties size='9'>
       <property name='artifact.size' value='122693'/>
       <property name='download.size' value='122693'/>
