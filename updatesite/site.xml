@@ -1,4 +1,8 @@
-#Sun Jun 23 04:49:26 EDT 2024
-artifact.repository.factory.order=artifacts.xml.xz,artifacts.xml,\!
-version=1
-metadata.repository.factory.order=content.xml.xz,content.xml,\!
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.core.pki.feature_1.0.2.202406231324.jar" id="org.eclipse.core.pki.feature" version="1.0.2.202406231324">
+      <category name="PKI_Site"/>
+   </feature>
+   <project name="org.eclipse.core.pki.update"/>
+   <category-def name="PKI_Site" label="Eclipse PKI Core Security"/>
+</site>
