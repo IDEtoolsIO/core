@@ -1,44 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
-<repository name='org.eclipse.core.pki.update' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
-  <properties size='3'>
-	<property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1719218279261'/>
-    <!--<property name='p2.uuid' value='900df66b-390e-49b1-b9ab-a1520aba4b71'/>-->
+<repository name='Update Site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1717261015379'/>
     <property name='p2.compressed' value='true'/>
   </properties>
-  <mappings size='2'>
-    <!--<rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/org.eclipse.core.pki.update-1.0.0-SNAPSHOT.jar'/>-->
-    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/org.eclipse:org.eclipse.core.pki.update:eclipse-repository:1.0.0-SNAPSHOT_1.0.0-SNAPSHOT'/>
-    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/org.eclipse:org.eclipse.core.pki.update:eclipse-repository:1.0.0-SNAPSHOT_1.0.0-SNAPSHOT.jar'/>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='2'>
-	<artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406240837'>
-    <properties size='9'>
-      <property name='artifact.size' value='82359'/>
-      <property name='download.size' value='82359'/>
-      <property name='download.checksum.sha-512' value='02afba8a48f17dc72591a8739a7809d5d285647722167ad49a3a1c31734c57def25ee0c6147110204483a75f868b3722b0aef2d60d6f31f3144d226f02e996c5'/>
-      <property name='download.checksum.sha-1' value='796b52eefee42b7c48ef493dc7ed4ec3aa55bf70'/>
-      <property name='download.checksum.sha-256' value='9ef78aab670b85791d522d296fe2de9b4bbe1610871d4a3a1c6e3a1c98ae850c'/>
-      <property name='maven-groupId' value='security'/>
-      <property name='maven-artifactId' value='org.eclipse.core.pki'/>
-      <property name='maven-version' value='1.0.2-SNAPSHOT'/>
-      <property name='maven-type' value='eclipse-plugin'/>
-    </properties>
-  </artifact>
-	<artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406240837'>
-    <properties size='9'>
-      <property name='artifact.size' value='122693'/>
-      <property name='download.size' value='122693'/>
-      <property name='download.checksum.sha-512' value='c21e5ac652455561abe54f69f678268d113208352350c69d7fba7b2ba549fbd98248fab45d50d445c539202c0e06472d0b166467827bedd4089a4e9ec65ee840'/>
-      <property name='download.checksum.sha-1' value='d6914eb5ffd20ada6672e57df7488b4544965692'/>
-      <property name='download.checksum.sha-256' value='1e58fd76dc9cd544da1a8344b898c58c860f1af34efa48feaecea50aca34ae53'/>
-      <property name='maven-groupId' value='security'/>
-      <property name='maven-artifactId' value='org.eclipse.ui.pki'/>
-      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
-      <property name='maven-type' value='eclipse-plugin'/>
-    </properties>
-  </artifact>
-  
-</artifacts>
+  <artifacts size='3'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406011256'>
+      <properties size='1'>
+        <property name='download.size' value='121627'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.core.pki.feature' version='1.0.2.202406010848'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='613'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406011256'>
+      <properties size='1'>
+        <property name='download.size' value='80357'/>
+      </properties>
+    </artifact>
+  </artifacts>
 </repository>
