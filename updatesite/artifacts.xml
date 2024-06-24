@@ -17,9 +17,6 @@
     <properties size='9'>
       <property name='artifact.size' value='81277'/>
       <property name='download.size' value='81277'/>
-      <property name='download.checksum.sha-512' value='adbeabe373d0f8d429bbb214120a124533a0842f2be750a8c70d2a104444a3dfebf3cb103a4f2e9db84c93ea5af578dca41569836218f5454f367154dd6bb228'/>
-      <property name='download.checksum.sha-1' value='27b28600f92467e5d07b12404ee0900a11e9c69c'/>
-      <property name='download.checksum.sha-256' value='87c150b7cab5e0e184e12320c60b43e9dd589921cddc1af0ac941f82529a6250'/>
       <property name='maven-groupId' value='security'/>
       <property name='maven-artifactId' value='org.eclipse.core.pki'/>
       <property name='maven-version' value='1.0.2-SNAPSHOT'/>
