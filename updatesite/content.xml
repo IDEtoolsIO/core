@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?metadataRepository version='1.2.0'?>
 <repository name='org.eclipse.core.pki.update' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
-  <properties size='3'>
+  <properties size='2'>
     <property name='p2.timestamp' value='1719218279261'/>
-    <property name='p2.uuid' value='900df66b-390e-49b1-b9ab-a1520aba4b71'/>
+    <!--<property name='p2.uuid' value='900df66b-390e-49b1-b9ab-a1520aba4b71'/>-->
     <property name='p2.compressed' value='true'/>
   </properties>
   <references size='2'>
