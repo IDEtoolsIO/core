@@ -16,7 +16,7 @@
         <property name='download.size' value='121627'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.core.pki.feature' version='1.0.2.202406010848'>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.core.pki.feature' version='1.0.2.202406240837'>
       <properties size='2'>
         <property name='download.contentType' value='application/zip'/>
         <property name='download.size' value='613'/>
