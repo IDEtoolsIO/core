@@ -11,7 +11,7 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='3'>
-    <artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406011256'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406240837'>
       <properties size='1'>
         <property name='download.size' value='121627'/>
       </properties>
@@ -22,7 +22,7 @@
         <property name='download.size' value='613'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406011256'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406240837'>
       <properties size='1'>
         <property name='download.size' value='80357'/>
       </properties>
