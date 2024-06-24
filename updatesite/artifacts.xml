@@ -3,8 +3,8 @@
 <repository name='org.eclipse.core.pki.update' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='4'>
 	<property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1719149103045'/>
-    <property name='p2.uuid' value='041f9de8-932f-4990-b93e-5299d086cd6c'/>
+    <property name='p2.timestamp' value='1719218279261'/>
+    <property name='p2.uuid' value='900df66b-390e-49b1-b9ab-a1520aba4b71'/>
     <property name='p2.compressed' value='true'/>
   </properties>
   <mappings size='2'>
@@ -13,28 +13,32 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/org.eclipse:org.eclipse.core.pki.update:eclipse-repository:1.0.0-SNAPSHOT_1.0.0-SNAPSHOT.jar'/>
   </mappings>
   <artifacts size='2'>
-	<artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406231324'>
-    <properties size='6'>
-      <property name='artifact.size' value='81277'/>
-      <property name='download.size' value='81277'/>
+	<artifact classifier='osgi.bundle' id='org.eclipse.core.pki' version='1.0.2.202406240837'>
+    <properties size='9'>
+      <property name='artifact.size' value='82359'/>
+      <property name='download.size' value='82359'/>
+      <property name='download.checksum.sha-512' value='02afba8a48f17dc72591a8739a7809d5d285647722167ad49a3a1c31734c57def25ee0c6147110204483a75f868b3722b0aef2d60d6f31f3144d226f02e996c5'/>
+      <property name='download.checksum.sha-1' value='796b52eefee42b7c48ef493dc7ed4ec3aa55bf70'/>
+      <property name='download.checksum.sha-256' value='9ef78aab670b85791d522d296fe2de9b4bbe1610871d4a3a1c6e3a1c98ae850c'/>
       <property name='maven-groupId' value='security'/>
       <property name='maven-artifactId' value='org.eclipse.core.pki'/>
       <property name='maven-version' value='1.0.2-SNAPSHOT'/>
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
   </artifact>
-  <artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406231324'>
+	<artifact classifier='osgi.bundle' id='org.eclipse.ui.pki' version='1.0.0.202406240837'>
     <properties size='9'>
       <property name='artifact.size' value='122693'/>
       <property name='download.size' value='122693'/>
-      <property name='download.checksum.sha-512' value='96493173c6406278e5e50e9df3d98406b784f64fd1e6205938e7e0fd91b05904e34ce1f00e3f403c497861e25c4a749f34f04db7c79aa33ebed71e864868b61a'/>
-      <property name='download.checksum.sha-1' value='eb21120f5260183b7472095fec205df95f69ffab'/>
-      <property name='download.checksum.sha-256' value='4502b156d61e2c321bde6112824f8a3f71074f1170f5f9b04d6a176f42282f0e'/>
+      <property name='download.checksum.sha-512' value='c21e5ac652455561abe54f69f678268d113208352350c69d7fba7b2ba549fbd98248fab45d50d445c539202c0e06472d0b166467827bedd4089a4e9ec65ee840'/>
+      <property name='download.checksum.sha-1' value='d6914eb5ffd20ada6672e57df7488b4544965692'/>
+      <property name='download.checksum.sha-256' value='1e58fd76dc9cd544da1a8344b898c58c860f1af34efa48feaecea50aca34ae53'/>
       <property name='maven-groupId' value='security'/>
       <property name='maven-artifactId' value='org.eclipse.ui.pki'/>
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
   </artifact>
+  
 </artifacts>
 </repository>
