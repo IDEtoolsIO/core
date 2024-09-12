@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.core.pki.feature_1.0.2.202409111744.jar" id="org.eclipse.core.pki.feature" version="1.0.2.202409111744">
+   <feature url="features/org.eclipse.core.pki.feature_1.0.2.202409120821.jar" id="org.eclipse.core.pki.feature" version="1.0.2.202409120821">
       <category name="PKI_Site"/>
    </feature>
    <project name="org.eclipse.core.pki.update"/>
